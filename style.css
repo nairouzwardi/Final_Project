@@ -1,0 +1,126 @@
+
+
+.announcement-bar {
+    border-bottom: 0.1rem solid rgba(var(--color-foreground),.08);
+    
+   
+ 
+}
+.announcement-bar__message {
+    padding: 1rem 0;
+    margin: 0;
+    letter-spacing: .1rem;
+    background-color: white;
+    padding: 1px;
+    
+}
+.center{
+    text-align: center;
+}
+.announcement-bar{
+    margin: 0;
+}
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:pink;
+}
+.header {
+    display: grid;
+    grid-template-areas: "left-icon heading icons";
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+.main-nav {
+    position: fixed;
+    background-color: white;
+    z-index: 20;
+}
+nav {
+    padding: 25px;
+   
+}
+.main-menu, .navright {
+    display: flex;
+    margin-left: 200px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.navright {
+    margin-left: 400px;
+}
+.navright li {
+    margin-left: 30px;
+}
+h1 {
+    color: rgb(238, 64, 116);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    background-color:pink
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+img{
+    height: 40px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(77, 30, 38);
+}
+.section_inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.brands  img {
+    height: 500px;
+
+}
+.Tay h1{
+    color: blueviolet;
+
+}
+.Tay h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 158, 222);
+}
+ .Tay{
+     background-color: blanchedalmond;
+     
+ }
+ .Tay img{
+     width: 50px;
+    
+
+     padding: 1.3rem;
+     
+      
+ }
+  .grid{
+    justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .price-item {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: x-large;
+      padding-left: 7.5em;
+      
+     
+      
+
+  } 
+ 
